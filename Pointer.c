@@ -58,7 +58,6 @@ int main(int argc, char const* argv[])
     void (*ptr2)(int , double) = &in;
     (*ptr2)(10.93487, 3);
 
-
     // Ví dụ về mảng các con trỏ hàm: Cú pháp
     void (*ptr3[])(int, double);
 
